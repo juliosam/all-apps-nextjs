@@ -1,7 +1,7 @@
 import { TextField } from '@mui/material'
 import { Dispatch } from 'react'
 import {SetStateAction} from 'react'
-import iconPerson from './images/icon-person.svg'
+import IconPerson from './images/IconPerson'
 interface Props {
     setPayersNumber:  Dispatch<SetStateAction<number>>}
 export const PeopleNumber = ({setPayersNumber}:Props) =>{
@@ -23,7 +23,7 @@ export const PeopleNumber = ({setPayersNumber}:Props) =>{
       className="people-number-input" 
       size='small' 
       style={{width: '274px'}}/>
-      <img src={iconPerson} alt='peoplee'></img>
+      <IconPerson className="people-icon"/>
     </div>
   )
 }

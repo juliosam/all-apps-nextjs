@@ -82,7 +82,7 @@ a {
   background-color: aliceblue;
 }
 
-.bill img{position: absolute; top: 32px; left: 12px; width: 9px;}
+.bill-icon{position: absolute; top: 32px; left: 12px; width: 9px;}
 
 .percent-tip{
   width: 270px;
@@ -127,7 +127,7 @@ a {
 
 .people-number{position: relative; margin-top: 30px;}
 
-.people-number img{position: absolute; top: 38px; left: 12px; width: 10px;}
+.people-icon{position: absolute; top: 38px; left: 12px; width: 10px;}
 
 .people-number span{
   display: block;

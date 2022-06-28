@@ -1,7 +1,8 @@
 import { TextField } from '@mui/material'
 import { Dispatch } from 'react'
 import {SetStateAction} from 'react'
-import iconDollar from './images/icon-dollar.svg'
+import IconDollar from "./images/IconDollar"
+
 interface Props {
     setBill:  Dispatch<SetStateAction<number>> }
 export const Bill = ({setBill}:Props) =>{
@@ -21,7 +22,7 @@ export const Bill = ({setBill}:Props) =>{
       <p className='error'>Numeric value needed</p>
       <TextField onChange={bill} className="billInput" size='small' style={{width: '274px'}}/>
       {/* <input onChange={bill} className="billInput" /> */}
-      <img src={iconDollar} alt='mmmoney'></img>
+      <IconDollar className="bill-icon"/>
     </div>
   )
 }
